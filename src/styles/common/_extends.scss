@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+.txt-alert-rojo{
+  font-weight: bolder;  
+  color: $text-alert-rojo;
+}
+
+.txt-alert-naranja{
+  font-weight: bold;
+  color: $text-alert-naranja;
+}
+
+.txt-alert-amarillo{
+  color: $text-alert-amarillo;
+}
+
+.txt-alert-verde{
+  color: $text-alert-verde;
+}

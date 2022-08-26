@@ -1,0 +1,95 @@
+/*HEADER*/
+.border-gradient {
+  border-top: 6px solid #20d5d2;
+}
+#header {
+  height: 9vh;
+  background: #20d5d2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+
+#header #nombre-sitio a {
+  text-decoration: none;
+}
+#header #nombre-sitio h1 {
+  float: left;
+  color: #444444;
+  font-size: 24px;
+  padding-left: 20px;
+}
+#header #logo-sitio .bac-header {
+  height: 34px !important;
+}
+#header #ba-logo {
+  float: right;
+  padding: 0;
+  background-color: white;
+  /* width: 80px; */
+  /* margin-top: 20px; */
+}
+
+#header #ba-logo:hover/*,
+#header #bac-logo:hover*/ {
+  background-color: transparent;
+}
+
+#header #logo-mobile {
+  text-align: center;
+}
+#header #logo-mobile .nombre-sitio {
+  font-size: 26px;
+  font-family: "IBM Plex Sans", Helvetica, Arial, sans-serif !important;
+  letter-spacing: -0px !important;
+  line-height: initial !important;
+
+  display: inline-block;
+
+  color: #444444;
+}
+#header #logo-mobile .contenedor-logo {
+  display: inline-block;
+}
+
+#header #logo-mobile .contenedor-logo .logo-noclaim {
+  width: 50px;
+  height: 26px;
+  display: inline-block;
+}
+
+.icons-header {
+  float: right !important;
+}
+.icons-header p {
+  display: none;
+}
+
+/* Responsive Logo BA */
+@media screen and (max-width: 480px) {
+  #ba-logo {
+    /* display: none; */
+    width: 8% !important;
+    margin-right: 14px;
+    margin-top: 5% !important;
+  }
+
+  #header #nombre-sitio h1 {
+    padding-left: 14px;
+  }
+
+  .icons-header {
+    float: left !important;
+  }
+  .icons-header span {
+    display: none;
+  }
+  .icons-header p {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #ba-logo {
+    margin-top: 6.2% !important;
+  }
+}

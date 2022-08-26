@@ -1,0 +1,27 @@
+{
+  "badPassword": {
+    "title": "Password is incorrect",
+    "subtitle": "Enter it again or click on I forgot my password."
+  },
+  "badUsername": {
+    "title": "The user is incorrect",
+    "subtitle": "Please re-enter it or contact us at innovgro@ar.ibm.com."
+  },
+  "comment": {
+    "title": "Comment sent",
+    "subtitle": "Our technical team will be contacting you to resolve it."
+  },
+  "occupiedOffice": {
+    "title": "The reservation was successfully canceled.",
+    "subtitle": "The office was reported as reserved from outside the system."
+  },
+  "overlap": {
+    "title": "Hours not available",
+    "subtitle": "You already have a reservation taken at the selected time."
+  },
+  "genericMessage": "Please contact innovgro@ar.ibm.com",
+  "cancelled": {
+    "title": "Cancelled reservation",
+    "subtitle": "The reservation was successfully canceled."
+  }
+}

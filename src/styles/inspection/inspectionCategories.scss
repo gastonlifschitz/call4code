@@ -1,0 +1,229 @@
+// Supplies & staff
+
+.staff-item {
+  width: 90%;
+}
+
+.supply-item {
+  width: 84%;
+  margin: 6px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resp-item,
+.staff-item,
+.supply-item {
+  padding: 0px 10px 0px 10px;
+  margin: 6px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .supply-select {
+    width: 82px;
+    height: 32px !important;
+    margin: 2px 0;
+  }
+
+  .staff-select {
+    min-width: 80px;
+    width: 20%;
+  }
+}
+
+.percentage-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .oculto {
+    visibility: hidden;
+  }
+}
+
+.percentage {
+  margin-left: -20px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.staff-input {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  padding-right: 26px !important;
+}
+
+.respdef-input {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  padding-right: 26px !important;
+}
+
+.respdef-input-percent > input {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  padding-right: 26px !important;
+}
+
+.respdef-input-percent:after {
+  content: "%";
+}
+
+.disclaimer {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  margin: 10px auto 20px;
+  color: #333;
+  width: 88%;
+}
+
+// Beds
+
+.cards-container-categ {
+  margin-bottom: 20px;
+}
+
+.bed {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 78%;
+  margin: 0 auto;
+
+  .beds-select {
+    width: 120px !important;
+    margin: 6px 0 !important;
+
+    &:disabled {
+      border: #f3f0ed 1px solid;
+      color: #e5e5e5;
+    }
+  }
+}
+
+.bed-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 16px auto 14px;
+  border-top: #e5e5e5 solid 1px;
+  padding: 16px;
+
+  .bed-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 00;
+
+    .beds-caption {
+      margin: 16px 0;
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+    .bed-input {
+      width: 38px;
+      height: 20px;
+      text-align: center;
+
+      &:disabled {
+        border: #f3f0ed 1px solid;
+        color: #e5e5e5;
+      }
+    }
+  }
+}
+
+// Observations
+
+.observation-title {
+  color: #333;
+  margin: 10px 0 30px;
+}
+
+.observation-container {
+  .comments {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .input-observations {
+      width: 92%;
+      height: 80px;
+      box-shadow: 0px 0px 4px #e5e5e5;
+      resize: none;
+      font-family: "OpenSans", Helvetica, Arial, sans-serif;
+    }
+  }
+
+  .comments-disclaimer {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 6px 0;
+    padding-left: 4px;
+    color: #717170;
+  }
+}
+
+// Common (Supplies, Staff, Beds, Observations)
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .category-icon {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0 20px;
+  }
+}
+
+.respdef-name {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.supply-name,
+.staff-name,
+.beds-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-around;
+
+  .btn-categories {
+    width: 44%;
+  }
+}
+
+@media (max-width: 330px) {
+  .observation-title {
+    font-size: 1em !important;
+  }
+}

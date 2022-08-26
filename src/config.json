@@ -1,0 +1,58 @@
+{
+  "baseURL": "https://hospitally.myinnovx.com",
+  "userTypes": ["Relay", "Administrator", "Supervisor"],
+  "screenStates": {
+    "default": 0,
+    "supplies": 1,
+    "beds": 2,
+    "staff": 3,
+    "observations": 4
+  },
+  "fixedBedTypes": ["occupied", "transitory"],
+  "dashCols": [
+    {
+      "title": "Institutions",
+      "img": "../../images/hospital.svg",
+      "key": "hospitals"
+    },
+    {
+      "title": "Beds",
+      "img": "../../images/bed.svg",
+      "key": "beds",
+      "alerts": {}
+    },
+    {
+      "title": "Supplies",
+      "img": "../../images/life.svg",
+      "key": "supplies"
+    },
+    {
+      "title": "Staff",
+      "img": "../../images/doctor.svg",
+      "key": "staff"
+    },
+    {
+      "title": "Patients",
+      "img": "../../images/report.svg",
+      "key": "respdef"
+    }
+  ],
+  "alertCodes": {
+    "RRHH": {
+      "medico": ["rojo", "naranja", "verde"],
+      "default": ["default"]
+    },
+    "INSUMOS": {
+      "ANY": ["rojo", "rojo", "rojo", "naranja", "amarillo", "verde"]
+    },
+    "GESTION DE PACIENTES": {
+      "criticos": ["verde", "rojo"],
+      "graves": ["verde", "rojo"],
+      "moderados": ["verde", "rojo"],
+      "default": ["default"]
+    },
+    "OTHER": {
+      "default": ["default"]
+    }
+  }
+}

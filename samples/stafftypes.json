@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "5e779175bbeca736bdb6eda7"
+  },
+  "description": "stretcher-bearer",
+  "timestamp": {
+    "$date": "2020-03-22T16:25:25.190Z"
+  },
+  "__v": 0,
+  "uxOrder": 2
+},{
+  "_id": {
+    "$oid": "5e779178bbeca736bdb6eda8"
+  },
+  "description": "doctor",
+  "timestamp": {
+    "$date": "2020-03-22T16:25:28.793Z"
+  },
+  "__v": 0,
+  "uxOrder": 0
+},{
+  "_id": {
+    "$oid": "5e77917ebbeca736bdb6eda9"
+  },
+  "description": "nurse",
+  "timestamp": {
+    "$date": "2020-03-22T16:25:34.450Z"
+  },
+  "__v": 0,
+  "uxOrder": 1
+},{
+  "_id": {
+    "$oid": "5e779187bbeca736bdb6edaa"
+  },
+  "description": "administrative",
+  "timestamp": {
+    "$date": "2020-03-22T16:25:43.194Z"
+  },
+  "__v": 0,
+  "uxOrder": 3
+}]

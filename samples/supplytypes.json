@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5e7791eebbeca736bdb6edab"
+  },
+  "description": "antiparras",
+  "timestamp": {
+    "$date": "2020-03-22T16:27:26.881Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e7791f3bbeca736bdb6edac"
+  },
+  "description": "camisolín",
+  "timestamp": {
+    "$date": "2020-03-22T16:27:31.772Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e7791ffbbeca736bdb6edad"
+  },
+  "description": "barbijo quirúrgico",
+  "timestamp": {
+    "$date": "2020-03-22T16:27:43.595Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e779208bbeca736bdb6edae"
+  },
+  "description": "barbijo N95",
+  "timestamp": {
+    "$date": "2020-03-22T16:27:52.740Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e77920ebbeca736bdb6edaf"
+  },
+  "description": "guantes",
+  "timestamp": {
+    "$date": "2020-03-22T16:27:58.968Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e779217bbeca736bdb6edb0"
+  },
+  "description": "alcohol en gel",
+  "timestamp": {
+    "$date": "2020-03-22T16:28:07.944Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e77921dbbeca736bdb6edb1"
+  },
+  "description": "cofia",
+  "timestamp": {
+    "$date": "2020-03-22T16:28:13.928Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e779230bbeca736bdb6edb3"
+  },
+  "description": "botas",
+  "timestamp": {
+    "$date": "2020-03-22T16:28:32.739Z"
+  },
+  "__v": 0
+}]

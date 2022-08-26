@@ -1,0 +1,9 @@
+{
+  "exitMsg": "If you close the tab, you will have to log in again to use the system.",
+  "noInternetMsg": "There is no Internet conection. Check your connection to continue operating. If you had pending transactions, they were saved locally and you can send them to the server when you recover connection.",
+  "successMsg": "The information was successfully synchronized with the server.",
+  "pendingMsg": "You have pending transactions.",
+  "noPendingMsg": "There are no records to sync.",
+  "cancelMsg": "If you cancel the operation, the current data will be lost and you will return to the beginning. Do you want to continue?",
+  "submitMsg": "Do you want to submit the current inspection?"
+}

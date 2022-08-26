@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5e77913bbbeca736bdb6eda0"
+  },
+  "description": "relevador",
+  "timestamp": {
+    "$date": "2020-03-22T16:24:27.224Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e779143bbeca736bdb6eda1"
+  },
+  "description": "administrador",
+  "timestamp": {
+    "$date": "2020-03-22T16:24:35.710Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e779148bbeca736bdb6eda2"
+  },
+  "description": "supervisor",
+  "timestamp": {
+    "$date": "2020-03-22T16:24:40.359Z"
+  },
+  "__v": 0
+}]

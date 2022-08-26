@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "covid19_secret",
+  "db": "HOSPITALLY_DB"
+}

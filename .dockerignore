@@ -1,0 +1,13 @@
+#folders
+backup
+build
+dummy
+node_modules
+coverage
+
+#files
+.env
+
+#wildcards
+*.log
+*.code-workspace

@@ -1,0 +1,53 @@
+
+
+.content{
+  .card{
+    .subsection{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 6px;
+      margin-bottom: 18px;
+      color: #333;
+
+      .time{
+        margin: 6px 6px 0 0;
+      }
+
+      .time-txt{
+        margin: 6px 6px 0 0;
+        font-size: 11px;
+        text-transform: uppercase;
+      }
+    }
+
+    .inspection-id, .sync-state{
+      font-size: 16px;
+      font-weight: 600;
+      margin: 4px 0;
+    }
+
+    .inspection-num{
+      font-size: 16px;
+      font-weight: 500;
+      display: block;
+      text-align: center;
+      padding-top: 6px;
+      margin: 0;
+    }
+  }
+
+  .btn-start{
+    margin: 3vh 0 0;
+    width: auto;
+  }
+
+  .btn-sec{
+    color: #717170;
+    margin-top: 10px;
+    width: auto;
+    box-shadow: none;
+    background-color: #e5e5e5;
+  }
+}

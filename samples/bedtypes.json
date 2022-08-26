@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "5e779112bbeca736bdb6ed9b"
+  },
+  "description": "existentes",
+  "timestamp": {
+    "$date": "2020-03-22T16:23:46.349Z"
+  },
+  "__v": 0,
+  "autoUpdate": true,
+  "uxOrder": 0
+},{
+  "_id": {
+    "$oid": "5e779116bbeca736bdb6ed9c"
+  },
+  "description": "ocupadas",
+  "timestamp": {
+    "$date": "2020-03-22T16:23:50.976Z"
+  },
+  "__v": 0,
+  "autoUpdate": false,
+  "uxOrder": 2
+},{
+  "_id": {
+    "$oid": "5e77911bbbeca736bdb6ed9d"
+  },
+  "description": "disponibles",
+  "timestamp": {
+    "$date": "2020-03-22T16:23:55.147Z"
+  },
+  "__v": 0,
+  "autoUpdate": true,
+  "uxOrder": 1
+},{
+  "_id": {
+    "$oid": "5e77911fbbeca736bdb6ed9e"
+  },
+  "description": "supernumerarias",
+  "timestamp": {
+    "$date": "2020-03-22T16:23:59.827Z"
+  },
+  "__v": 0,
+  "autoUpdate": false,
+  "uxOrder": 3
+}]

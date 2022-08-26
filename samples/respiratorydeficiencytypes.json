@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "5e824f684753a3a6c9e4b295"
+  },
+  "description": "critical",
+  "timestamp": {
+    "$date": "2020-03-30T19:58:32.880Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e8250784753a3a6c9e4b29a"
+  },
+  "description": "serious",
+  "timestamp": {
+    "$date": "2020-03-30T20:03:04.808Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e82507d4753a3a6c9e4b29b"
+  },
+  "description": "moderate",
+  "timestamp": {
+    "$date": "2020-03-30T20:03:09.312Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e8250824753a3a6c9e4b29c"
+  },
+  "description": "high",
+  "timestamp": {
+    "$date": "2020-03-30T20:03:14.217Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e8250864753a3a6c9e4b29d"
+  },
+  "description": "deceased",
+  "timestamp": {
+    "$date": "2020-03-30T20:03:18.058Z"
+  },
+  "__v": 0
+}]

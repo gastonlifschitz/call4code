@@ -1,0 +1,163 @@
+@import "../common/extends.scss";
+
+.content {
+  background-color: #f5f5f5;
+  min-width: 180px;
+
+  .date {
+    display: inline-block;
+    padding: 0 0 6px 2px;
+    font-size: 13px;
+    font-weight: 300;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  .last-inspection {
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+    span,
+    span.date {
+      margin: 2px;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    span.date {
+      font-weight: 600;
+    }
+  }
+
+  .greeting {
+    margin: 10px 0 18px;
+    color: #333;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px #e5e5e5;
+    padding: 11px;
+    color: #333;
+
+    .hospital-label {
+      font-weight: 400;
+      font-size: 14px;
+      padding-left: 3px;
+      line-height: 30px;
+    }
+
+    .hospital-select {
+      margin-bottom: 10px;
+    }
+
+    .btn-inspection {
+      margin-top: 8px;
+      width: 100%;
+    }
+  }
+
+  .connection-container {
+    margin: 50% auto 0;
+  }
+}
+
+@media (min-width: 280px) {
+  .mobile {
+    width: 95vw;
+    .content {
+      .cards-container {
+        .card {
+          margin-top: 10px !important;
+        }
+        .unique-btn-container {
+          margin-top: 10px !important;
+        }
+      }
+    }
+  }
+
+  #header #nombre-sitio h1 {
+    font-size: 1.2rem;
+  }
+
+  .content {
+    padding: 1vh 10px;
+  }
+
+  // .cards-container {
+  //   // margin-top: -14px !important;
+  //   // height: 130vh !important;
+  // }
+}
+
+@media (min-width: 330px) {
+  // .cards-container {
+  // margin-top: -10px !important;
+  // height: 110vh !important;
+  // padding-bottom: 1vh;
+  // }
+}
+
+@media (min-width: 400px) {
+  .mobile {
+    width: 97vw;
+    margin: 0 auto;
+  }
+}
+
+@media (min-height: 700px) {
+  .mobile {
+    width: 95vw;
+    // .content {
+    //   .cards-container {
+    //     // height: 94vh !important;
+    //   }
+    // }
+  }
+}
+
+@media (min-height: 700px) and (orientation: landscape) {
+  .mobile {
+    width: 65vw;
+    // .content {
+    //   .cards-container {
+    //     height: 94vh !important;
+    //   }
+    // }
+  }
+}
+
+@media (min-height: 800px) {
+  .cards-container {
+    height: 84vh !important;
+  }
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+  .mobile {
+    width: 95vw;
+    .content {
+      .cards-container {
+        height: 100vw;
+        .card {
+          margin-top: 10px !important;
+        }
+        .unique-btn-container {
+          margin-top: 10px !important;
+        }
+        .unique-btn-container > button {
+          line-height: 1.2em;
+        }
+      }
+    }
+  }
+}

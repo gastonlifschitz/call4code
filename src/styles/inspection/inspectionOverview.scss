@@ -1,0 +1,298 @@
+.cards-container {
+  margin: 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-staff {
+    height: 58vh;
+    margin: 0 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card {
+    padding: 8px 10px;
+    cursor: pointer;
+
+    .card-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .card-title {
+        margin: 2px 0 8px;
+        color: #333;
+      }
+
+      .label-obs {
+        margin-bottom: 4px;
+      }
+
+      .icon {
+        width: 20px;
+        padding: 0 10px 8px 0;
+      }
+    }
+
+    .supplies {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0;
+
+      .supply {
+        width: 80px;
+        margin: 2px 0 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .supply-name {
+          font-size: 10px;
+          padding-top: 2px;
+          color: #333;
+          text-align: center;
+          word-break: break-word;
+          height: 20px;
+        }
+
+        .quantity {
+          border: #c5c3c2 solid 1px;
+          border-radius: 4px;
+          padding: 0px 10px;
+          line-height: 28px;
+          margin: 0px;
+          font-weight: 500;
+          font-size: 13px;
+          text-align: center;
+          min-width: 40px;
+          height: 28px;
+        }
+      }
+    }
+
+    .beds,
+    .staff {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 98%;
+      margin: 8px auto 4px;
+      flex-wrap: wrap;
+
+      .group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 6px;
+
+        .quantity {
+          border: #c5c3c2 solid 1px;
+          border-radius: 4px;
+          padding: 0px 10px;
+          line-height: 28px;
+          margin: 0px;
+          font-weight: 500;
+          font-size: 13px;
+          text-align: center;
+          min-width: 40px;
+          height: 28px;
+        }
+
+        .percentage-input {
+          border: #c5c3c2 solid 1px;
+          border-radius: 4px;
+          padding: 0px 10px;
+          line-height: 28px;
+          margin: 0px;
+          font-weight: 500;
+          font-size: 13px;
+          text-align: center;
+          min-width: 40px;
+          height: 28px;
+        }
+
+        .percentage-input:after {
+          margin-left: 0px;
+          content: "%";
+        }
+
+        .clarification {
+          font-size: 9px;
+          font-weight: 600;
+          text-align: center;
+          padding: 6px 0 0;
+          word-break: break-word;
+
+          &::first-letter {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .respiratory {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 98%;
+      margin: 8px auto 4px;
+      flex-wrap: wrap;
+
+      .group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 6px;
+
+        .quantity {
+          border: #c5c3c2 solid 1px;
+          border-radius: 4px;
+          padding: 0px 10px;
+          line-height: 28px;
+          margin: 0px;
+          font-weight: 500;
+          font-size: 13px;
+          text-align: center;
+          min-width: 40px;
+          height: 28px;
+        }
+        .p-input {
+          border: #c5c3c2 solid 1px;
+          border-radius: 4px;
+          padding: 0px 10px;
+          line-height: 28px;
+          margin: 0px;
+          font-weight: 500;
+          font-size: 13px;
+          text-align: center;
+          min-width: 40px;
+          height: 28px;
+        }
+
+        .p-input:after {
+          margin-left: 0px;
+          content: "%";
+        }
+
+        .clarification {
+          font-size: 9px;
+          font-weight: 600;
+          text-align: center;
+          padding: 6px 0 0;
+          word-break: break-word;
+
+          &::first-letter {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .observation-text {
+      font-size: 13px;
+      padding-left: 4px;
+      margin: 8px 0 20px;
+
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+
+    .btn-obs {
+      box-shadow: #c5c3c2 0 0 1px;
+      margin-bottom: 6px;
+      color: #333;
+    }
+  }
+
+  .card-opt {
+    cursor: auto;
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.modified {
+  color: #333;
+}
+
+.hospital-name {
+  display: inline-block;
+  padding: 8px 0 0 4px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.overview-subtitle {
+  width: 100%;
+  margin: 10px 0 2px;
+  padding-left: 4px;
+}
+
+.btn-comment {
+  border: none;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 4px 0 8px;
+  padding: 4px 6px;
+  color: #333;
+  cursor: pointer;
+
+  .opt {
+    font-weight: 300;
+    color: #717170;
+  }
+}
+
+.unique-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  .connection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 10px;
+
+    .label-connection {
+      color: #717170;
+      font-weight: 400;
+      font-size: 12px;
+      padding-left: 8px;
+    }
+
+    .dot-connection {
+      text-align: center;
+      border-radius: 50%;
+      padding: 3px 3.8px;
+      font-size: 2px;
+    }
+
+    .success-dot {
+      background-color: #88bf48;
+      color: #88bf48;
+    }
+
+    .fail-dot {
+      background-color: #e74c3c;
+      color: #e74c3c;
+    }
+  }
+}
